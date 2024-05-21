@@ -1,5 +1,6 @@
 # Design-pattern
-设计模式(C++)，方便快速了解设计模式并反复学习。
+本仓库总结了23种设计模式，主要以C++实现，但思想互通，并不影响各个语言学习。
+主要依据李建忠老师的公开讲座并结合公开资料和个人学习整理集合而成，方便快速了解设计模式并反复学习。
 
 ## 什么是设计模式
 “每一个模式描述了一个在我们周围不断重复发生的问题，以及该问题的解决方案的核心。这样，你就能一次又一次地使用该方案而不必做重复劳动”。
@@ -243,7 +244,7 @@ Software entities like classes,modules and functios should be open for extemsion
 
 ### “接口隔离模式”
 在组件构建过程中，某些接口之间直接的依赖常常会带来很多问题、甚至根本无法实现，采用添加一层间接(稳定)接口，来隔离本来相互紧密关联的接口是一种常见的解决方案。
-+ [Façade 门面模式](Facade/Facade.md)
++ [Façade 外观模式](Facade/Facade.md)
 + [Proxy 代理模式](Proxy/Proxy.md)
 + [Adapter 适配器模式](Adapter/Adapter.md)
 + [Mediator 中介者模式](Mediator/Mediator.md)
@@ -281,3 +282,6 @@ Software entities like classes,modules and functios should be open for extemsion
 继承 -> 组合
 编译时依赖 -> 运行时依赖
 紧耦合 -> 松耦合
+
+## 现代C++与设计模式
+[现代C++与设计模式](./现代C++与设计模式.md)

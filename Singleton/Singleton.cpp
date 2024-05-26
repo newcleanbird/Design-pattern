@@ -1,3 +1,9 @@
+#include <iostream>
+#include <mutex>
+#include <thread>
+#include<atomic>
+
+using namespace std;
 
 class Singleton{
 private:
